@@ -1,0 +1,71 @@
+# root .gitignore
+
+# ========================================
+# Android Studio / IntelliJ
+# ========================================
+*.iml
+.idea/
+.idea/*
+!.idea/codeStyles/           # keep code style settings if you want
+!.idea/runConfigurations/    # keep run configs if shared
+!.idea/vcs.xml
+
+# ========================================
+# Gradle
+# ========================================
+.gradle/
+build/
+*/build/
+out/
+captures/
+local.properties
+
+# Gradle caches
+.gradle/
+**/.gradle/
+gradle-app.setting
+
+# ========================================
+# Android / Java / Kotlin
+# ========================================
+# Log files
+*.log
+
+# Android generated
+app/release/
+app/debug/
+*.apk
+*.ap_
+*.aab
+
+# Proguard / R8
+proguard/
+*.mapping
+*.hprof
+
+# ========================================
+# OS Specific
+# ========================================
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Linux
+*~
+
+# ========================================
+# IDE Other
+# ========================================
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/libraries
+.idea/caches
+.idea/modules.xml
+
+# JetBrains
+cmake-build-*/
